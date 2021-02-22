@@ -1,0 +1,47 @@
+.body  {
+  padding-left: 0%;
+  margin-left: 0%;
+  border: 0ch;
+ }
+ 
+ .img_1{
+   background-image: url("./Assets/Path\ 246.png");
+   background-size: 70% 100%;
+   background-repeat: no-repeat;
+   height: 250px;
+   background-color: brown;
+   margin-bottom: 0%;
+   padding-bottom: 0%;
+ }
+ .div2{
+   margin-top: 0%;
+   background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10%;
+  
+   
+ }
+ .content{
+   background-color: darkgreen;
+   margin-right: 80%;
+   height: 100%;
+   padding:0% 0%;
+ }
+ 
+ .img_2{
+   margin-left: 60%;
+   margin-top: 0%;
+   margin-bottom: 20%;
+   
+  background-image: url("./Assets/Group\ 25.png");
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+  padding:0% 0%;
+  background-color: darkslategray;
+  
+  
+  height: 150px;
+   
+ }
+ 

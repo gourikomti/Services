@@ -1,0 +1,9 @@
+.Navbar{
+    display: flex;
+}
+.icons{
+    float: right;
+}
+.com_logo{
+    float: left;
+}
