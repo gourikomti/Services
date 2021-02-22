@@ -1,0 +1,35 @@
+
+.msg {
+   
+    margin-left: 270px;
+    margin-top: 210px;
+    padding-bottom: 0px;
+}
+.msg h1{
+    color: rgb(73, 17, 112);
+    font-size: 65px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+.msg h3{
+    font-size: 25px;
+    margin-top: 0px;
+    
+}
+.msg h5{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    padding-top: 0px;
+}
+#btn{
+    padding: 15px 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgb(192, 165, 12);
+    color:  rgb(192, 165, 12);
+}
+

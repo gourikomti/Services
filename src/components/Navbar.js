@@ -14,16 +14,19 @@ import email from '../Assets/email-blue.svg';
 function Navbar() {
     return (
         <div className="Navbar">
-            <div className="com_logo">
+            <div className="logo">
              
-             <h1>INPROSPECT</h1>
+             <h1>Inprospect Technologies</h1>
+             
+             
              </div>
+             
              <div className="icons">
                  
                 <img src={linkdin} alt="LINK" />
                 <img src={facebook} alt="LINK" />
                 <img src={insta} alt="LINK" />
-                <img src={email} alt="LINK" />
+                <img src={email} alt="LINK" id="email" />
 
 
              </div>

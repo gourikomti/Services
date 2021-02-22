@@ -1,9 +1,29 @@
 .Navbar{
     display: flex;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.icons img{
+   
+    padding-top: 25px;
+    margin-right: 5px;
+    align-items: center;
+    margin-right: 15px;
+    
+    
 }
 .icons{
+    
+    margin-left: 1050px;
+    position: absolute right;
     float: right;
 }
-.com_logo{
+.logo{
     float: left;
+    margin-left: 20px;
+    color: white;
+    font-size: 10px;
+    padding-left: 10px;
 }
+
