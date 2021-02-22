@@ -22,8 +22,58 @@
 .logo{
     float: left;
     margin-left: 20px;
-    color: white;
-    font-size: 10px;
+    
+    
     padding-left: 10px;
 }
+.logo img{
+    size:20px;
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
 
+    
+}
+
+@media only screen and (max-width:500px) and (min-width:450px){
+    .Navbar{
+        display: flex;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    
+    .icons img{
+       
+        padding-top: 25px;
+        margin-right: 15px;
+        align-items: center;
+        width:25px;
+        
+       
+        
+        
+        
+    }
+    .icons{
+        
+        margin-left: 486px;
+        position: absolute right;
+        float: right;
+    }
+    .logo{
+        float: left;
+        margin-left: 20px;
+        
+        
+        padding-left: 10px;
+    }
+    .logo img{
+        size:20px;
+        width: 200px;
+        height: 60px;
+        margin-top: 30px;
+    
+        
+    }
+
+}

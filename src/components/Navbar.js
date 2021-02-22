@@ -1,13 +1,10 @@
 import React from 'react';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import EmailIcon from '@material-ui/icons/Email';
 import "../css/Navbar.css";
 import linkdin from '../Assets/linkdin-blue.svg';
 import insta from '../Assets/insta-blue.svg';
 import facebook from '../Assets/facebook-blue.svg';
 import email from '../Assets/email-blue.svg';
+import logo from '../Assets/logo.jpg'
 
 
 
@@ -16,7 +13,7 @@ function Navbar() {
         <div className="Navbar">
             <div className="logo">
              
-             <h1>Inprospect Technologies</h1>
+            <img src={logo} alt="INPROSPECT"/>
              
              
              </div>
