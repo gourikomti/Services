@@ -1,35 +1,36 @@
 
-.msg {
-   
-    margin-left: 270px;
-    margin-top: 210px;
-    padding-bottom: 0px;
-}
-.msg h1{
-    color: rgb(73, 17, 112);
-    font-size: 65px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-}
-.msg h3{
-    font-size: 25px;
-    margin-top: 0px;
+
+
+.text h1{
+    color: #01017E;
+    font-size: 3.5vw;
+    font: bold;
+    font-weight: bolder;
+    margin-top: 0%;
     
 }
-.msg h5{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 22px;
-    padding-top: 0px;
+.text h5{
+    
+    margin-bottom: 0%;
+    color: #0D0D0D;
+    font-size: 1.4vw;
+    font: normal;
+  
+    opacity: 1;
+}
+.text h3{
+    color: #0D0D0D;
+   
+    font-weight: ;
+    font-size: 1.5vw;
 }
 #btn{
-    padding: 15px 50px;
-    margin-top: 20px;
-    font-size: 15px;
+    padding: 1% 5%;
+    margin-top: 5vw;
+    font-size: 1.5vw;
     background-color: white;
     border-radius: 5px;
-    border-color: rgb(192, 165, 12);
-    color:  rgb(192, 165, 12);
+    border-color:  #ECC66A ;
+    color: #ECC66A;
+    box-shadow:0px 0px 0px 0px #ECC66A ;
 }
-
