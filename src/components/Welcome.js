@@ -1,3 +1,4 @@
+//THIS CONTAINS THE WELOCME MESSAGE WITH DESK GRADIENT OF FRONTEND;
 import React from 'react'
 import '../css/Welcome.css'
 import desk from '../Assets/Group 25.png'

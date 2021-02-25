@@ -1,3 +1,5 @@
+//COMPONENT INCLUDING THE NAVBAR; 
+
 import React from 'react';
 import "../css/Navbar.css";
 import linkdin from '../Assets/linkdin-blue.svg';
