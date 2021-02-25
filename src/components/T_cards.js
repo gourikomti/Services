@@ -1,15 +1,15 @@
 //CONTAINS ALL THE WHAT WE DO CARD INFORMATION THAT IT RECIEVES FROM CONTENTFUL;
 import React from 'react'
-import W_card from './W_card'
 import '../css/cards.css'
+import T_card from './T_card.js'
 
 
-export const W_cards = ({w_cards}) => {
-    console.log(w_cards)
+export const T_cards = ({t_cards}) => {
+    console.log(t_cards)
     
     return (
         <div className="cards" style={{columnCount:'2',marginLeft:'2vw',paddingLeft:'1.5vw',paddingRight:'1.5vw'  }}>
-            {w_cards.map((article, index) => <W_card article={article} key={index}/>)}
+            {t_cards.map((article, index) => <T_card article={article} key={index}/>)}
         </div>
     )
 }
