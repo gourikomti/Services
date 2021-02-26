@@ -24,11 +24,11 @@ function Navbar() {
             <img src={logo} alt="INPROSPECT" style={{width:'100%'}}/>
             
             </div>
-          <div className="d-flex " style={{marginRight:'2%'}} >
-          <img src={linkdin} alt="LINK" style={{width:'25px'}} />
-                <img src={facebook} alt="LINK" style={{width:'25%',paddingRight:'7%'}} />
-                <img src={insta} alt="LINK" style={{width:'25%',paddingRight:'7%'}}/>
-                <img src={email} alt="LINK" id="email" style={{width:'27%',paddingRightt:'7%'}}/>
+          <div className="d-flex " style={{marginRight:'2.5vw'}} >
+          <img src={linkdin} alt="LINK" style={{width:'2.5vw',paddingRight:'7%',marginLeft:'3vw'}} />
+                <img src={facebook} alt="LINK" style={{width:'2.5vw',paddingRight:'7%'}} />
+                <img src={insta} alt="LINK" style={{width:'2.5vw',paddingRight:'7%'}}/>
+                <img src={email} alt="LINK" id="email" style={{width:'2.3vw',paddingRightt:'7%'}}/>
 
           </div>
         </div>

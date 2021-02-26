@@ -2,6 +2,8 @@
 import React from 'react'
 import '../css/Welcome.css'
 import desk from '../Assets/Group 25.png'
+import {BrowserRouter, Link} from 'react-router-dom';
+import Getintouch from './Getintouch'
 function Welcome() {
     return (
        
@@ -14,7 +16,7 @@ function Welcome() {
                 <h5>Welcome To</h5>
                 <h1>INPROSPECT SERVICES</h1>
                 <h3>Functional, Custom - build, ingenious softwares<br/> At your fingertips</h3>
-                <button id="btn">Contact Us</button> 
+              <BrowserRouter> <Link  to={<Getintouch/>} > <button id="btn">Contact Us</button> </Link></BrowserRouter>
             </div>
             
             
